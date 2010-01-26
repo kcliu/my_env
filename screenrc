@@ -1,0 +1,23 @@
+vbell off
+autodetach on
+startup_message off
+shell -$SHELL
+allpartial off
+#encoding utf-8
+#utf8
+#original -> caption always "%{=u .G} %-w%<%{=ub .C}%n %t%{=u .G}%+w "
+#caption always "%{wB}-%H %{yB}%l%{wB}-%{kk} %{gB} %n %t %{kb}| %{wb}%W %= %{kk} %{wB}-%D %Y.%m.%d %C %A-"
+
+caption always " | %-w%{= BW}%50>%n %t%{-}%+w |%<"
+hardstatus alwaysignore
+hardstatus alwayslastline "%{= .K} [%l]%<%=%{= .W}@%H %=%{= .y} %Y %M %d(%D) %{= .m} %C %A"
+#bindkey "^[O5C" next
+bindkey "^[[C" next
+#bindkey "^[O5D" prev
+bindkey "^[[D" prev
+bindkey "z^[[D" prev
+bindkey "z^[[C" next
+#gnome-terminal
+bindkey "^[[1;5D" prev
+bindkey "^[[1;5C" next
+
