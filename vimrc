@@ -62,10 +62,10 @@ set showcmd
 "set et
 "set cindent
 
-map <C-t>l <ESC>:tabnext<CR> 
-map <C-t>h <ESC>:tabprev<CR> 
-map <C-t>n <ESC>:tabnew<CR><ESC>:e 
-map <C-t>c <ESC>:tabclose<CR> 
+map <C-t>l <ESC>:tabnext<CR>
+map <C-t>h <ESC>:tabprev<CR>
+map <C-t>n <ESC>:tabnew<CR><ESC>:e
+map <C-t>c <ESC>:tabclose<CR>
 map <C-K> viwy:!ydict <C-R>"<CR>
 map <F9> gT
 map <F10> gt
